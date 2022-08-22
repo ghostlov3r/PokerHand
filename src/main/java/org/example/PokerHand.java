@@ -171,6 +171,6 @@ public class PokerHand implements Comparable<PokerHand> {
 	 */
 	@Override
 	public String toString() {
-		return input + " " + combination + " " + power;
+		return input;
 	}
 }
